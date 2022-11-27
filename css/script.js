@@ -145,4 +145,19 @@ let inpu3=inp3.value;
 
 // }
 
+var string1= "zoho";
+var string2= "zogo";
+
+let out ='';
+
+for(i=0;i<=string1.length;i++){ 
+  for(i=0;i<=string2.length;i++){
+    if(string1[i] !== string2[i]){
+      out+=string1[i] + string2[i];
+  }
+}
+document.write(out);
+
+}
+
 
